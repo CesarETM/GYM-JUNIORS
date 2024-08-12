@@ -208,10 +208,9 @@ header nav ul li a:hover{
     
 }
 
+/*GALERIA*/
 
-/*PRUEBA*/
-
-.row div img{
+.image div img{
     width: 350px;
     height: 350px;
     border-radius: 30px;
@@ -226,7 +225,7 @@ header nav ul li a:hover{
     align-items: center;
 }
 
-.row div img:hover{
+.image div img:hover{
     transform: scale(1.05);
 }
 
