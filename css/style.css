@@ -103,16 +103,20 @@ header nav ul li a:hover{
 
 .container-text{
     width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
 .textdetail{
-    width: 100%;
-    height: 300px;
+    width: 700px;
+    height: 450px;
     text-align: center;
     font-family: "Inter", sans-serif;
     font-style: italic;
-    font-size: 24px;
+    font-size: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,7 +144,7 @@ header nav ul li a:hover{
 
 }
 
-div p span{
+.text-descripcion p span{
     width: 100%;
     font-family: "Inter", sans-serif;
     font-style: italic;
@@ -164,8 +168,71 @@ div p span{
     width: 100%;
     border-radius: 30px;
 }
-/*INICIO FOOTER*/
 
+.second-banner{
+    width: 100%;
+    margin: 50px 0 ;
+}
+
+.text-titulo{
+    text-align: center ;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+
+}
+
+.text-titulo p span{
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    color: red;
+    text-align: center;
+
+}
+
+.text-subtitulo{
+    width: auto;
+    height: 70px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+
+/*PRUEBA*/
+
+.row div img{
+    width: 350px;
+    height: 350px;
+    border-radius: 30px;
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.image{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row div img:hover{
+    transform: scale(1.05);
+}
+
+
+
+/*INICIO FOOTER*/
 footer{
     width: 100%;
     height: 70px;
