@@ -126,3 +126,74 @@ h3 span{
 .imagen-horarios{
     margin-bottom: 50px;
 }
+
+
+@media(max-width: 360px){
+
+    .container-titulo{
+        height: 250px;
+    }
+    .container-titulo h2{
+        font-size: 16px;
+    }
+
+    /*CARDS*/
+    .card-planes{
+        height: 400px;
+    }
+    .contenido{
+        width: 250px;
+        height: 350px;
+        border-radius: 30px;
+        transition: transform 1s;
+    } 
+    
+    .card-title{
+        height: 80px;   
+    }
+    
+    .card-title img{
+        width: 30px;
+        height: 40px;
+    }
+    
+
+    .logo{
+        width:80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo{
+        width: 170px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo h2{
+        width: 150px;
+        height: auto;
+        font-size: 20px ; 
+    }
+    
+    .card-descripcion{
+        
+        width: 200px;
+        height: 180px;
+        font-size: 12px;
+    }
+    
+    .card-linea{
+        width: 200px;        
+    }
+    
+    .precio{
+        font-size: 16px;
+        height: 67px;  
+    }
+    
+}

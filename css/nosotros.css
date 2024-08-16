@@ -1,22 +1,38 @@
+
+.container-banner{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-banner img{
+    width: 100%;
+}
+
 .section1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
     height: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.section-nosotros img{
-    width: 80%;
+.section-nosotros video{
+    height: 700px;
+    border-radius: 30px;
 }
 
 .section-nosotros{
+    width: 720px;
+    height: 800px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .descripcion{
-    width: auto;
+    width: 720px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -65,6 +81,91 @@
     flex-direction: column;
 }
 
+/*ANDROID*/
+
+@media(max-width: 360px){
+    
+    .container-banner{
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-banner img{
+        width: 340px;
+        height: 180px;
+        
+    }
+
+    .section1{
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .section-nosotros{
+        width: 100%;
+        height: 450px;
+        margin: 0;
+
+    }
+    .section-nosotros video{
+        width: auto;
+        height: 430px;
+    }
+
+    .descripcion{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .nosotros{
+        text-align: justify;
+    }
+    
+    div h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .mision-vision{
+        height: 800px;
+    }
+
+    .row{
+        height: 400px;
+    }
+    .container-img{
+        width: 100%;
+        height: 250px;
+    }
+    .container-text{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .img-mision img{
+        width: auto;
+        height: 200px;
+    }
+
+    .container-text p{
+        font-size: 14px;
+    }
+    .container-text h5{
+        font-size: 30px;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 
 
