@@ -196,4 +196,25 @@ h3 span{
         height: 67px;  
     }
     
+    .descuentos{
+        height: 600px;
+    }
+
+    .container-descuentos{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descuentos .row div img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .sub-titulo h3{
+        font-size: 25px;
+    }
+
+   
 }
