@@ -73,7 +73,7 @@ header nav ul li a{
 
 .div {
     display: flex;
-    gap: 250px;
+    gap: 200px;
 }
 
 .img-logo{
@@ -82,7 +82,7 @@ header nav ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #5f5959;
+    background-color: #5F5959;
     border-radius: 30px;
     color: white;
     text-decoration: none;
@@ -453,13 +453,22 @@ footer div a img{
         
     }
     
-    
     footer div a img{
         width: 25px;
     }
     
-    .logo-footer{
-        width: 50px; 
+    .logo-footer a img{
+        width: 30px; 
+        height: 30px;
+    }
+
+    .logos-redes a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo-redes a{
+        width: 40px;
         height: 40px;
     }
 }
@@ -492,6 +501,8 @@ footer div a img{
 
     header div ul li{
         width: 140px;
+        justify-content: center;
+        align-items: center;
     }
 
     .button-contacto a{
@@ -500,10 +511,10 @@ footer div a img{
         font-size: 14px;
     }
 
-.section{
-    width: 100%;
-    height: 700px;
-}
+    .section{
+        width: 100%;
+        height: 700px;
+    }
 
     .video-container, .container-text{
         width: 50%;
@@ -551,6 +562,9 @@ footer div a img{
         justify-content: start !important;
         }
 
-
-
+    
+    footer{
+        width: 100%;
+        height: 60px;
+    }
 }

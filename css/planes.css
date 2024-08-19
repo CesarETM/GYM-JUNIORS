@@ -127,7 +127,15 @@ h3 span{
     margin-bottom: 50px;
 }
 
+@media(max-width: 1024px){
 
+    .container-descuentos img{
+        width: 300px;
+        height: 300px;
+    }
+
+
+}
 @media(max-width: 360px){
 
     .container-titulo{
